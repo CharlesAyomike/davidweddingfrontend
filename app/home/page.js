@@ -12,11 +12,9 @@ function page() {
     <div>
         <Header/>
     <div 
-        className="bg-cover h-[400] bg-center md:h-[650] text-white"
-        style={{
-          backgroundImage: `url('/banner.jpg')`
-        }}
-      >
+        className="bg-cover h-[400px] bg-center md:h-[650px] text-white"
+        style={{backgroundImage: `url('/banner.jpg')`}}
+    >
             <div className='p-20 md:p-0 md:absolute bottom-10 left-16'>
                 <h2 className='font-dancing_script font-extrabold text-5xl md:text-8xl'>Ayomide & </h2>
                 <h2 className='font-dancing_script font-extrabold text-5xl md:text-8xl'> David </h2>
@@ -41,7 +39,7 @@ function page() {
             <div className='flex-1 flex justify-center item-center'>
                 <div>
                     <h3 className='mb-10 md:mb-4 font-bold text-5xl font-dancing_script text-center'>Our Story</h3>
-                    <Image src="/ph2.jpg" width={300} height={300} className='h-[300] w-[300] border border-black p-1 rounded-br-xl rounded-tl-xl'/>
+                    <Image src="/ph2.jpg" width={300} height={300} className='h-[300px] w-[300px] border border-black p-1 rounded-br-xl rounded-tl-xl'/>
                 </div>
             </div>
             <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0'>
@@ -59,7 +57,7 @@ function page() {
                 <p className='mb-2'>
                     Now, they are ready for the next chapter of their relationship to begin.
                 </p>
-                <Image src="/ph2.jpg" width={300} height={300} className='h-[250] w-[250] border ml-10 mt-10 border-black p-1'/>
+                <Image src="/ph2.jpg" width={300} height={300} className='h-[250px] w-[250px] border ml-10 mt-10 border-black p-1'/>
             </div>
             </div>
 
@@ -85,14 +83,14 @@ function page() {
             </div>
 
             <div className='flex-1 flex justify-center item-center mt-10 md:mt-0'>
-                <Image src="/ph2.jpg" width={550} height={400} className='w-[350] h-[250] md:w-[550] md:h-[400] border border-white p-1'/>
+                <Image src="/ph2.jpg" width={550} height={400} className='w-[350px] h-[250px] md:w-[550px] md:h-[400px] border border-white p-1'/>
             </div>
         </div>
 
         <div className='py-24  bg-[#FFE5B4]'>
             <div className='md:flex justify-evenly w-full md:w-[70%] mx-auto'>
-                <Image src="/ph2.jpg" width={250} height={300} className='w-[290] mx-auto md:mx-0 rounded-tl-[20] mb-7 md:mb-0 rounded-br-[20] h-[350] border border-black p-1'/>
-                <Image src="/ph2.jpg" width={250} height={300} className='w-[290] mx-auto md:mx-0 rounded-tr-[20] rounded-bl-[20] h-[350] border border-black p-1'/>
+                <Image src="/ph2.jpg" width={250} height={300} className='w-[290px] mx-auto md:mx-0 rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] h-[350px] border border-black p-1'/>
+                <Image src="/ph2.jpg" width={250} height={300} className='w-[290px] mx-auto md:mx-0 rounded-tr-[20px] rounded-bl-[20px] h-[350px] border border-black p-1'/>
             </div>
             <div className='w-[70%] mx-auto mt-5 text-center'>
                 <h3 className='mb-4 font-bold text-3xl font-dancing_script'>What to Wear</h3>
