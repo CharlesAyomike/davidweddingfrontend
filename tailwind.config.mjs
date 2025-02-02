@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        dancing_script: "var(--font-dancing_script)",
+        raleway: "var(--font-raleway)",
+      },
     },
   },
   plugins: [],

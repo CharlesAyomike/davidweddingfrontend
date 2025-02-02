@@ -28,7 +28,16 @@ const Home = () => {
           <div className="space-y-2">
             <input
               type="text"
-              placeholder="Please enter your invite code"
+              placeholder="Please enter your name"
+              className="w-full px-4 py-3 rounded-md border border-[#FFE5B4] focus:outline-none focus:ring-2 focus:ring-[#800020] focus:border-transparent"
+              required
+            />
+          </div>
+
+          <div className="space-y-2">
+            <input
+              type="text"
+              placeholder="Please enter your email"
               className="w-full px-4 py-3 rounded-md border border-[#FFE5B4] focus:outline-none focus:ring-2 focus:ring-[#800020] focus:border-transparent"
               required
             />
