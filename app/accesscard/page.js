@@ -3,28 +3,29 @@ import Header from "@/components/Header";
 import Image from "next/image";
 
 const page = () => {
-    return (
-      <div className="bg-[#FFE5B4] h-screen">
-        <Header/>
-        
-        
-      <div className="pt-16 px-16">
-  
-          <Image alt="weddind invitation card" src="/cards/accesscard.jpg" width={500} height={0} className="mx-auto"/>
-       
+  return (
+    <div className="min-h-screen bg-[#FFE5B4] flex flex-col">
+      <Header />
 
-      </div>
-      <div className="flex justify-center my-5 item-center">
-        <button className="border bg-[#800020] text-white px-3 py-2 rounded-lg">download card</button>
-      </div>
+      <main className="flex-1 pt-16 px-16">
+        <Image
+          alt="wedding access card"
+          src="/cards/accesscard.jpg"
+          width={500}
+          height={0}
+          className="mx-auto"
+        />
 
-        <div className="absolute bottom-0 w-full">
-            <Footer/>
+        <div className="flex justify-center my-5 items-center">
+          <button className="border bg-[#800020] text-white px-3 py-2 rounded-lg">
+            download card
+          </button>
         </div>
-      </div>
+      </main>
 
-    );
-  };
-  
-  export default page;
-  
+      <Footer />
+    </div>
+  );
+};
+
+export default page;
