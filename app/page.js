@@ -8,9 +8,9 @@ const page = () => {
     <div className="min-h-screen relative flex items-center justify-center">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center z-0"
+        className="absolute inset-0 bg-center bg-no-repeat bg-cover z-0"
         style={{
-          backgroundImage: `url('/banner.jpg')`
+          backgroundImage: `url('/ph8.jpg')`
         }}
       />
       

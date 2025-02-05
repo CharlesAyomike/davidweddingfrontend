@@ -35,7 +35,7 @@ async function page({params}) {
         <Header code={code}/>
     <div 
         className="bg-cover h-[400px] bg-center md:h-[650px] text-white"
-        style={{backgroundImage: `url('/banner.jpg')`}}
+        style={{backgroundImage: `url('/banner.jpeg')`}}
     >
             <div className='p-20 md:p-0 md:absolute bottom-10 left-16'>
                 <h2 className='font-dancing_script font-extrabold text-5xl md:text-8xl'>Ayomide & </h2>
@@ -45,7 +45,7 @@ async function page({params}) {
 
             <div className='mt-10'>
                 <button className='bg-[#800020] px-6 py-3 text-white rounded-bl-lg rounded-tr-lg'>
-                    <Link href="/accesscard">
+                    <Link href={`/accesscard/${code}`}>
                         RSVP
                     </Link>
                 </button>
@@ -61,7 +61,7 @@ async function page({params}) {
             <div className='flex-1 flex justify-center item-center'>
                 <div>
                     <h3 className='mb-10 md:mb-4 font-bold text-5xl font-dancing_script text-center'>Our Story</h3>
-                    <Image src="/ph2.jpg" width={300} height={300} className='h-[300px] w-[300px] border border-black p-1 rounded-br-xl rounded-tl-xl'/>
+                    <Image src="/ph9.jpeg" width={300} height={300} className='h-[300px] w-[300px] border border-black p-1 rounded-br-xl rounded-tl-xl'/>
                 </div>
             </div>
             <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0'>
@@ -79,7 +79,7 @@ async function page({params}) {
                 <p className='mb-2'>
                     Now, they are ready for the next chapter of their relationship to begin.
                 </p>
-                <Image src="/ph2.jpg" width={300} height={300} className='h-[250px] w-[250px] border ml-10 mt-10 border-black p-1'/>
+                <Image src="/ph11.jpeg" width={300} height={300} className='h-[250px] w-[250px] border ml-10 mt-10 border-black p-1'/>
             </div>
             </div>
 
@@ -91,10 +91,12 @@ async function page({params}) {
                     <h3 className='mb-4 font-bold text-5xl font-dancing_script w-[60%] mx-auto'>Join us as we tie the knot!</h3>
                     <div className='w-[60%] mt-4 mx-auto'>
                         <p>
-                            When: March 29, 2025 | 2:00 PM onwards
+                            March 29, 2025 | 11:00 AM onwards
                         </p>
                         <p>
-                            Where: Sierra Lane Garden, 123 Anywhere St., Any City
+                            Abundant Life Gosple Church
+                            <bg/>
+                            69, Iju Road, Agege, Lagos.
                         </p>
                         <div className='mt-10'>
                             <CountdownTimer targetDate="28 Mar 2025 00:12:00 GMT"/>
@@ -105,7 +107,7 @@ async function page({params}) {
             </div>
 
             <div className='flex-1 flex justify-center item-center mt-10 md:mt-0'>
-                <Image src="/ph2.jpg" width={550} height={400} className='w-[350px] h-[250px] md:w-[550px] md:h-[400px] border border-white p-1'/>
+                <Image src="/ph10.jpeg" width={550} height={400} className='w-[350px] h-[250px] md:w-[550px] md:h-[400px] border border-white p-1'/>
             </div>
         </div>
 

@@ -6,17 +6,19 @@ const Grid = () => {
 
   // Sample image data - replace URLs with your actual image paths
   const images = [
-    { id: 1, src: '/banner.jpg', alt: 'Gallery Image 1', width: 'col-span-2' },
-    { id: 2, src: '/ph1.jpg', alt: 'Gallery Image 2', width: 'col-span-1' },
-    { id: 3, src: '/ph2.jpg', alt: 'Gallery Image 3', width: 'col-span-1' },
-    { id: 4, src: '/ph3.jpg', alt: 'Gallery Image 4', width: 'col-span-2' },
-    { id: 5, src: '/banner.jpg', alt: 'Gallery Image 5', width: 'col-span-1' },
-    { id: 6, src: '/ph3.jpg', alt: 'Gallery Image 6', width: 'col-span-1' },
-    { id: 7, src: '/ph1.jpg', alt: 'Gallery Image 7', width: 'col-span-1' },
-    { id: 8, src: '/ph2.jpg', alt: 'Gallery Image 8', width: 'col-span-2' },
-    { id: 9, src: '/ph3.jpg', alt: 'Gallery Image 6', width: 'col-span-1' },
-    { id: 10, src: '/ph1.jpg', alt: 'Gallery Image 7', width: 'col-span-1' },
-    { id: 11, src: '/ph2.jpg', alt: 'Gallery Image 8', width: 'col-span-1' },
+    { id: 1, src: '/banner.jpeg', alt: 'Gallery Image 1', width: 'col-span-2' },
+    { id: 2, src: '/ph1.jpeg', alt: 'Gallery Image 2', width: 'col-span-1' },
+    { id: 3, src: '/ph2.jpeg', alt: 'Gallery Image 3', width: 'col-span-1' },
+    { id: 4, src: '/ph3.jpeg', alt: 'Gallery Image 4', width: 'col-span-2' },
+    { id: 5, src: '/ph4.jpeg', alt: 'Gallery Image 5', width: 'col-span-1' },
+    { id: 6, src: '/ph5.jpeg', alt: 'Gallery Image 6', width: 'col-span-1' },
+    { id: 7, src: '/ph6.jpeg', alt: 'Gallery Image 7', width: 'col-span-1' },
+    { id: 8, src: '/ph7.jpeg', alt: 'Gallery Image 8', width: 'col-span-2' },
+    { id: 9, src: '/ph8.jpg', alt: 'Gallery Image 9', width: 'col-span-1' },
+    { id: 10, src: '/ph9.jpeg', alt: 'Gallery Image 10', width: 'col-span-1' },
+    { id: 11, src: '/ph10.jpeg', alt: 'Gallery Image 11', width: 'col-span-1' },
+    { id: 12, src: '/ph11.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
+
   ];
 
   return (

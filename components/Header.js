@@ -20,11 +20,11 @@ function Header({code}) {
     <>
 
       <header className='hidden md:flex justify-between item-center py-4 px-20 shadow-md bg-[#800020] text-white'>
-        <Link href="/home" className='font-dancing_script font-extrabold text-2xl block'>Ayomike & David</Link>
+        <Link href={`/home/${code}`} className='font-dancing_script font-extrabold text-2xl block'>Ayomike & David</Link>
         <nav className='flex gap-3 mt-1'>
             <Link href={`/invitationcard/${code}`} className='font-bold hover:text-white/80'>Wedding Card</Link>
             <Link href={`/accesscard/${code}`} className='font-bold hover:text-white/80'>Access Card</Link>
-            <Link href={`/gallery/${code}`} className='font-bold hover:text-white/80'>Pre Wedding Photos</Link>
+            <Link href={`/gallery/${code}`} className='font-bold hover:text-white/80'>Gallery</Link>
         </nav>
       </header>
 
@@ -45,15 +45,15 @@ function Header({code}) {
             </div>
 
             <div className='pt-16'>
-              <Link href="/home" className='font-dancing_script font-extrabold text-xl block'>Ayomike & David</Link>
+              <Link href={`/home/${code}`}  className='font-dancing_script font-extrabold text-xl block'>Ayomike & David</Link>
               <div className='my-4'>
-                <Link href="/invitationcard" className='font-bold hover:text-white/80'>Wedding Card</Link>
+                <Link href={`/invitationcard/${code}`} className='font-bold hover:text-white/80'>Wedding Card</Link>
               </div>
               <div className='my-4'>
-                <Link href="/accesscard" className='font-bold hover:text-white/80'>Access Card</Link>
+                <Link href={`/accesscard/${code}`} className='font-bold hover:text-white/80'>Access Card</Link>
               </div>
               <div className='my-4'>
-                <Link href="/gallery" className='font-bold hover:text-white/80'>Pre Wedding Photos</Link>
+                <Link href={`/gallery/${code}`} className='font-bold hover:text-white/80'>Gallery</Link>
               </div>
             </div>
             
