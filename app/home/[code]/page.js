@@ -95,7 +95,7 @@ async function page({params}) {
                         </p>
                         <p>
                             Abundant Life Gosple Church
-                            <bg/>
+                            <br/>
                             69, Iju Road, Agege, Lagos.
                         </p>
                         <div className='mt-10'>
@@ -129,9 +129,11 @@ async function page({params}) {
             <div className='w-full'>
               
                 
-                        <iframe width="100%" height="350"   src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        {/* <iframe width="100%" height="350"   src="https://maps.app.goo.gl/Dq2dFAcVD3T6vTJb6">
                             <a href="https://sprunkiphasez.com/">Sprunki Phase</a>
-                        </iframe>
+                        </iframe> */}
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3963.1122933684164!2d3.321446673589163!3d6.632973421884377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738797949866!5m2!1sen!2sng" width="100%" height="450" className='border-0' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
            
                 
             </div>

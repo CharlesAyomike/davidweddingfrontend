@@ -14,7 +14,7 @@ const Grid = () => {
     { id: 6, src: '/ph5.jpeg', alt: 'Gallery Image 6', width: 'col-span-1' },
     { id: 7, src: '/ph6.jpeg', alt: 'Gallery Image 7', width: 'col-span-1' },
     { id: 8, src: '/ph7.jpeg', alt: 'Gallery Image 8', width: 'col-span-2' },
-    { id: 9, src: '/ph8.jpg', alt: 'Gallery Image 9', width: 'col-span-1' },
+    { id: 9, src: '/ph8.jpeg', alt: 'Gallery Image 9', width: 'col-span-1' },
     { id: 10, src: '/ph9.jpeg', alt: 'Gallery Image 10', width: 'col-span-1' },
     { id: 11, src: '/ph10.jpeg', alt: 'Gallery Image 11', width: 'col-span-1' },
     { id: 12, src: '/ph11.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
