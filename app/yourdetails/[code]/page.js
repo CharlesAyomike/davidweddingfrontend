@@ -1,8 +1,26 @@
-import Form from "@/components/Form";
+import Form2 from "@/components/Form2";
+import { redirect } from 'next/navigation'
 
+async function getData(code) {
+    const res =  await fetch(`https://davidbackend-gi5p.onrender.com/guest/${code}`)
+     if(!res.ok){
+        throw new Error("fail to fetch data")
+     }
 
-const page = () => {
+     return res.json()
+}
+const  page = async ({params}) => {
 
+  const code = (await params).code
+      const data = await getData(code.code)
+  
+      if(data?.status === 404){
+          redirect("/")
+      }
+  
+      if(data?.link === "home"){
+          redirect("/home")
+      }
 
   return (
     <div className="min-h-screen relative flex items-center justify-center">
@@ -27,7 +45,7 @@ const page = () => {
           Welcome to Our Wedding
         </h1>
         
-        <Form/>
+        <Form2 code={code}/>
       </div>
     </div>
   );

@@ -6,11 +6,33 @@ import Link from 'next/link'
 import { FaBus } from "react-icons/fa";
 import { FaMotorcycle } from "react-icons/fa6";
 import { FaCar } from "react-icons/fa";
+import { redirect } from 'next/navigation'
 
-function page() {
+async function getData(code) {
+    const res =  await fetch(`https://davidbackend-gi5p.onrender.com/guest/${code}`)
+     if(!res.ok){
+        throw new Error("fail to fetch data")
+     }
+
+     return res.json()
+}
+
+async function page({params}) {
+    const code = (await params).code
+    const data = await getData(code)
+
+    if(data?.status === 404){
+        redirect("/")
+    }
+
+    if(data?.link !== "home" || !data?.guest?.name){
+        redirect("/")
+    }
+
+
   return (
     <div>
-        <Header/>
+        <Header code={code}/>
     <div 
         className="bg-cover h-[400px] bg-center md:h-[650px] text-white"
         style={{backgroundImage: `url('/banner.jpg')`}}
@@ -117,10 +139,10 @@ function page() {
                 <div className='my-10 flex item-center gap-2'>
                     <FaBus size={30}/> Sierralane Park Station
                 </div>
-                <div className='my-10 flex flex item-center gap-2'>
+                <div className='my-10 flex item-center gap-2'>
                     <FaMotorcycle size={30}/> Sierralane Park Station
                 </div>
-                <div className='my-10 flex flex item-center gap-2'>
+                <div className='my-10 flex item-center gap-2'>
                     <FaCar size={30}/> Sierralane Park Station
                 </div>
             </div>

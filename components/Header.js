@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { IoMenuSharp } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
-function Header() {
+function Header({code}) {
 
   const sideBarRef = useRef(null)
 
@@ -22,9 +22,9 @@ function Header() {
       <header className='hidden md:flex justify-between item-center py-4 px-20 shadow-md bg-[#800020] text-white'>
         <Link href="/home" className='font-dancing_script font-extrabold text-2xl block'>Ayomike & David</Link>
         <nav className='flex gap-3 mt-1'>
-            <Link href="/invitationcard" className='font-bold hover:text-white/80'>Wedding Card</Link>
-            <Link href="/accesscard" className='font-bold hover:text-white/80'>Access Card</Link>
-            <Link href="/gallery" className='font-bold hover:text-white/80'>Pre Wedding Photos</Link>
+            <Link href={`/invitationcard/${code}`} className='font-bold hover:text-white/80'>Wedding Card</Link>
+            <Link href={`/accesscard/${code}`} className='font-bold hover:text-white/80'>Access Card</Link>
+            <Link href={`/gallery/${code}`} className='font-bold hover:text-white/80'>Pre Wedding Photos</Link>
         </nav>
       </header>
 
