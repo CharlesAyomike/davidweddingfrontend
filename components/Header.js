@@ -20,7 +20,7 @@ function Header({code}) {
     <>
 
       <header className='hidden md:flex justify-between item-center py-4 px-20 shadow-md bg-[#800020] text-white'>
-        <Link href={`/home/${code}`} className='font-dancing_script font-extrabold text-2xl block'>Ayomike & David</Link>
+        <Link href={`/home/${code}`} className='font-dancing_script font-extrabold text-2xl block'>Ayomide & David</Link>
         <nav className='flex gap-3 mt-1'>
             <Link href={`/invitationcard/${code}`} className='font-bold hover:text-white/80'>Wedding Card</Link>
             <Link href={`/accesscard/${code}`} className='font-bold hover:text-white/80'>Access Card</Link>
@@ -45,7 +45,7 @@ function Header({code}) {
             </div>
 
             <div className='pt-16'>
-              <Link href={`/home/${code}`}  className='font-dancing_script font-extrabold text-xl block'>Ayomike & David</Link>
+              <Link href={`/home/${code}`}  className='font-dancing_script font-extrabold text-xl block'>Ayomide & David</Link>
               <div className='my-4'>
                 <Link href={`/invitationcard/${code}`} className='font-bold hover:text-white/80'>Wedding Card</Link>
               </div>
