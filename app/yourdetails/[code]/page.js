@@ -29,7 +29,7 @@ const  page = async ({params}) => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: `url('/banner.jpg')`
+          backgroundImage: `url('/banner.jpEg')`
         }}
       />
       

@@ -32,16 +32,17 @@ function Form2({code}) {
                 if(data?.code){
                 router.push(`/home/${data.code}`)
                 }else{
-                  toast.error("there was an error, please try again")
+                  toast.error("there was an error, please try")
                 }
                 
                 setLoading(false)
+
     
               } else {
                 setLoading(false)
-                toast.error("there was an error, please try again")
-
+                toast.error("invalid email address")
               }
+
     
             }
 

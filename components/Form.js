@@ -11,9 +11,13 @@ function Form() {
         setCode(e.target.value)
     }
     async function checkCode() {
-        if(!code) return
+        if(!code) {
+          toast.error("code is compulsory")
+          return
+        }
         setLoading(true)
-        const response = await fetch(`https://davidbackend-gi5p.onrender.com/guest/${code}`)
+        const updateCode = code.toUpperCase()
+        const response = await fetch(`https://davidbackend-gi5p.onrender.com/guest/${updateCode}`)
         if (response.status === 200) {
 
             const data = await response.json()

@@ -30,12 +30,13 @@ async function page({params}) {
     }
 
 
+
   return (
     <div>
         <Header code={code}/>
     <div 
-        className="bg-cover h-[400px] bg-center md:h-[650px] text-[#800020]"
-        style={{backgroundImage: `url('/banner2.jpg')`}}
+        className="bg-cover h-[400px] bg-center md:h-[650px] text-white"
+        style={{backgroundImage: `url('/banner.jpeg')`}}
     >
             <div className='p-20 md:p-0 md:absolute bottom-10 left-16'>
                 <h2 className='font-dancing_script font-extrabold text-5xl md:text-8xl'>Ayomide & </h2>
@@ -58,15 +59,15 @@ async function page({params}) {
       
 
         <div className='md:flex justify-between py-24 bg-[#FFE5B4]'>
-            <div className='flex-1 flex justify-center item-center px-5'>
+            <div className='flex-1 flex justify-center item-center px-4'>
                 <div>
                     <h3 className='mb-10 md:mb-4 font-bold text-5xl font-dancing_script text-center'>Our Story</h3>
                     <Image src="/ph9.jpeg" width={300} height={300} className='h-[300px] mb-3 mx-auto object-cover w-[300px]  border border-black p-1 rounded-br-xl rounded-tl-xl'/>
                     
-                <p className='mb-2'>
+                <p className='mb-2 text-justify'>
                 David and I were work buddies before anything. I knew him as that dependable contact who always went the extra mile to give unwavering support to me whenever I needed a service from where he worked, but things took a little turn after a meeting I had with his team in January 2024. I was a bit under the weather and although I had managed to be at work on that day, I still looked a mess. 
                 </p>
-                <p className='mb-2'>
+                <p className='mb-2 text-justify'>
                 He literally called every day after that to check on me and in that simple act of kindness, I began to see him in a new, more profound light. As our friendship budded and grew stronger, I saw his thoughtfulness and the depth of his character, his genuineness and commitment. And today, we are living a beautiful story.
                 <br/>- Ayomide
                 </p>
@@ -76,8 +77,9 @@ async function page({params}) {
                 
 
             </div>
-            <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0'>
+            <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0 px-4'>
                 <div>
+                <Image src="/ph11.jpeg" width={300} height={300} className='h-[300px] w-[300px] mb-3 object-center border mx-auto md:hidden border-black p-1'/>
 
                 <p className='mb-2 text-justify'>
                     I got to meet Ayomide when I resumed a new job and was assigned the account of a company in which she worked. She was to be the main contact person from the company I would be working with. On the first day I saw her, everything about her screamed different. She was so good-natured and stood out in such a special way. Her smile, her voice, her warmth, her professionalism, her beauty!
@@ -105,7 +107,7 @@ async function page({params}) {
                 </p>
 
 
-                <Image src="/ph11.jpeg" width={300} height={300} className='h-[250px] w-[250px] object-center border ml-10 mt-10 border-black p-1'/>
+                <Image src="/ph11.jpeg" width={300} height={300} className='h-[300px] w-[300px] object-center border hidden md:block ml-10 mt-10 border-black p-1'/>
             </div>
             </div>
 
