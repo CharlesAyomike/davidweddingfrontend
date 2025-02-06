@@ -25,7 +25,6 @@ const page = async ({params}) => {
         redirect("/")
     }
 
-    console.log(data)
 
   return (
     <div className='bg-[#FFE5B4]'>

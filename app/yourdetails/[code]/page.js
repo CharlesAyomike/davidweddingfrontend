@@ -6,13 +6,12 @@ async function getData(code) {
      if(!res.ok){
         throw new Error("fail to fetch data")
      }
-
      return res.json()
 }
 const  page = async ({params}) => {
 
   const code = (await params).code
-      const data = await getData(code.code)
+      const data = await getData(code)
   
       if(data?.status === 404){
           redirect("/")
@@ -21,6 +20,8 @@ const  page = async ({params}) => {
       if(data?.link === "home"){
           redirect("/home")
       }
+
+  
 
   return (
     <div className="min-h-screen relative flex items-center justify-center">
