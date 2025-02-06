@@ -47,7 +47,7 @@ function AccessCard({name}) {
   return (
     <main className="flex-1 pt-16 px-16">
    
-  <canvas ref={canvasRef} className="mx-auto w-[500px]"></canvas>
+  <canvas ref={canvasRef} className="md:mx-auto w-full max-w-[500px]"></canvas>
 
 
     <div className="flex justify-center my-5 items-center">

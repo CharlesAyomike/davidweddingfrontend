@@ -47,7 +47,7 @@ function WeddingCard({code}) {
 <main className="flex-1 pt-16 px-16">
 
 
-  <canvas ref={canvasRef} className="mx-auto w-[450px]"></canvas>
+  <canvas ref={canvasRef} className="mx-auto w-full max-w-[450px]"></canvas>
 
 
 <div className="flex justify-center my-5 items-center">

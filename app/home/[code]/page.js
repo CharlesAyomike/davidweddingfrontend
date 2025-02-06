@@ -35,7 +35,7 @@ async function page({params}) {
         <Header code={code}/>
     <div 
         className="bg-cover h-[400px] bg-center md:h-[650px] text-white"
-        style={{backgroundImage: `url('/banner.jpeg')`}}
+        style={{backgroundImage: `url('/ph10.jpeg')`}}
     >
             <div className='p-20 md:p-0 md:absolute bottom-10 left-16'>
                 <h2 className='font-dancing_script font-extrabold text-5xl md:text-8xl'>Ayomide & </h2>
@@ -61,7 +61,7 @@ async function page({params}) {
             <div className='flex-1 flex justify-center item-center'>
                 <div>
                     <h3 className='mb-10 md:mb-4 font-bold text-5xl font-dancing_script text-center'>Our Story</h3>
-                    <Image src="/ph9.jpeg" width={300} height={300} className='h-[300px] w-[300px] border border-black p-1 rounded-br-xl rounded-tl-xl'/>
+                    <Image src="/ph9.jpeg" width={300} height={300} className='h-[300px] object-cover w-[300px]  border border-black p-1 rounded-br-xl rounded-tl-xl'/>
                 </div>
             </div>
             <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0'>
@@ -79,17 +79,17 @@ async function page({params}) {
                 <p className='mb-2'>
                     Now, they are ready for the next chapter of their relationship to begin.
                 </p>
-                <Image src="/ph11.jpeg" width={300} height={300} className='h-[250px] w-[250px] border ml-10 mt-10 border-black p-1'/>
+                <Image src="/ph11.jpeg" width={300} height={300} className='h-[250px] w-[250px] object-center border ml-10 mt-10 border-black p-1'/>
             </div>
             </div>
 
         </div>
 
         <div className='bg-black/90 text-white md:flex py-24'>
-            <div className='flex-1 flex justify-center pt-16 item-center'>
-                <div>
-                    <h3 className='mb-4 font-bold text-5xl font-dancing_script w-[60%] mx-auto'>Join us as we tie the knot!</h3>
-                    <div className='w-[60%] mt-4 mx-auto'>
+            <div className='flex-1 flex justify-center pt-4 md:pt-16 item-center'>
+                <div className='w-[80%] md:w-[60%] mx-auto'>
+                    <h3 className='mb-4 font-bold text-5xl font-dancing_script'>Join us as we tie the knot!</h3>
+                    <div className='mt-4'>
                         <p>
                             March 29, 2025 | 11:00 AM onwards
                         </p>
@@ -106,15 +106,15 @@ async function page({params}) {
                 </div>
             </div>
 
-            <div className='flex-1 flex justify-center item-center mt-10 md:mt-0'>
-                <Image src="/ph10.jpeg" width={550} height={400} className='w-[350px] h-[250px] md:w-[550px] md:h-[400px] border border-white p-1'/>
+            <div className='flex-1 flex justify-center item-center mt-10 md:mt-0 px-4 md:px-0'>
+                <Image src="/banner.jpeg" width={550} height={400} className='w-[350px] h-[250px] md:w-[550px] md:h-[400px] border border-white p-1'/>
             </div>
         </div>
 
         <div className='py-24  bg-[#FFE5B4]'>
             <div className='md:flex justify-evenly w-full md:w-[70%] mx-auto'>
-                <Image src="/ph2.jpg" width={250} height={300} className='w-[290px] mx-auto md:mx-0 rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] h-[350px] border border-black p-1'/>
-                <Image src="/ph2.jpg" width={250} height={300} className='w-[290px] mx-auto md:mx-0 rounded-tr-[20px] rounded-bl-[20px] h-[350px] border border-black p-1'/>
+                <Image src="/ph2.jpg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] md:h-[350px] border border-black p-1'/>
+                <Image src="/ph2.jpg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 rounded-tr-[20px] rounded-bl-[20px] md:h-[350px] border border-black p-1'/>
             </div>
             <div className='w-[70%] mx-auto mt-5 text-center'>
                 <h3 className='mb-4 font-bold text-3xl font-dancing_script'>What to Wear</h3>
@@ -125,15 +125,12 @@ async function page({params}) {
         </div>
 
         <div className='bg-black/90 text-white md:flex py-24'>
-            <div className='flex-1 px-10'>
+            <div className='flex-1 px-4 md:px-10'>
             <div className='w-full'>
               
-                
-                        {/* <iframe width="100%" height="350"   src="https://maps.app.goo.gl/Dq2dFAcVD3T6vTJb6">
-                            <a href="https://sprunkiphasez.com/">Sprunki Phase</a>
-                        </iframe> */}
+            
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3963.1122933684164!2d3.321446673589163!3d6.632973421884377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738797949866!5m2!1sen!2sng" width="100%" height="450" className='border-0' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3963.1122933684164!2d3.321446673589163!3d6.632973421884377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738797949866!5m2!1sen!2sng" width="100%" height="350" className='border-0' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
            
                 
             </div>
