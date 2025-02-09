@@ -145,7 +145,7 @@ async function page({params}) {
                 <Image src="/ph3.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] md:h-[350px] border border-black p-1'/>
                 <Image src="/ph9.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tr-[20px] rounded-bl-[20px] md:h-[350px] border border-black p-1'/>
             </div>
-            <div className='w-[50%] mx-auto mt-5 text-center'>
+            <div className='w-[80%] md:w-[50%] mx-auto mt-5 text-center'>
                 <p className='font-bold font-dancing_script text-xl'>
                 We can’t imagine this special day without the people who mean the most to us. It would be our greatest joy to have you celebrate this beautiful moment with us.
                 </p>

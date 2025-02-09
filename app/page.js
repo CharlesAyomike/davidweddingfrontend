@@ -3,16 +3,10 @@ import Form from "@/components/Form";
 
 const page = () => {
 
-
   return (
     <div className="min-h-screen relative flex items-center justify-center">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-center bg-no-repeat bg-cover z-0"
-        style={{
-          backgroundImage: `url('/ph6.jpeg')`
-        }}
-      />
+      <div className="absolute inset-0 bg-center bg-no-repeat bg-cover z-0 bg-[url('/ph1.jpeg')] md:bg-[url('/banner.jpeg')]"/>
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#FFE5B4]/30 backdrop-blur-sm z-10" />
