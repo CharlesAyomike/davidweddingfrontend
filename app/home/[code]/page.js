@@ -47,7 +47,7 @@ async function page({params}) {
             <div className='mt-10'>
                 <button className='bg-[#800020] px-6 py-3 text-white rounded-bl-lg rounded-tr-lg'>
                     <Link href={`/accesscard/${code}`}>
-                        RSVP
+                        Access Card
                     </Link>
                 </button>
             </div>
@@ -62,7 +62,7 @@ async function page({params}) {
             <div className='flex-1 flex justify-center item-center px-4'>
                 <div>
                     <h3 className='mb-10 md:mb-4 font-bold text-5xl font-dancing_script text-center'>Our Story</h3>
-                    <Image src="/ph9.jpeg" width={300} height={300} className='h-[300px] mb-3 mx-auto object-cover w-[300px]  border border-black p-1 rounded-br-xl rounded-tl-xl'/>
+                    <Image src="/ph10.jpeg" width={300} height={300} className='h-[300px] mb-3 mx-auto object-cover w-[300px]  border border-black p-1 rounded-br-xl rounded-tl-xl'/>
                     
                 <p className='mb-2 text-justify'>
                 David and I were work buddies before anything. I knew him as that dependable contact who always went the extra mile to give unwavering support to me whenever I needed a service from where he worked, but things took a little turn after a meeting I had with his team in January 2024. I was a bit under the weather and although I had managed to be at work on that day, I still looked a mess. 
@@ -79,35 +79,36 @@ async function page({params}) {
             </div>
             <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0 px-4'>
                 <div>
-                <Image src="/ph11.jpeg" width={300} height={300} className='h-[300px] w-[300px] mb-3 object-center border mx-auto md:hidden border-black p-1'/>
+                <Image src="/ph14.jpeg" width={300} height={300} className='h-[300px] w-[300px] mb-3 object-center border mx-auto md:hidden border-black p-1'/>
 
                 <p className='mb-2 text-justify'>
-                    I got to meet Ayomide when I resumed a new job and was assigned the account of a company in which she worked. She was to be the main contact person from the company I would be working with. On the first day I saw her, everything about her screamed different. She was so good-natured and stood out in such a special way. Her smile, her voice, her warmth, her professionalism, her beauty!
+                I got to meet Ayomide when I resumed a new job and was assigned the account of a company in which she worked. She was to be the main contact person from the company I would be working with. On the first day I saw her, everything about her screamed different. She was so good-natured and stood out in such a special way. Her smile, her voice, her warmth, her professionalism, her beauty!
+                    
                     </p>
                     <p className='mb-2 text-justify'>
 
-                    As time went on, I found myself curious. I found myself looking forward to the next visit, to her emails, to her work calls. I became distinctively mindful of her, till I made up my mind to take a step a little over a year after and ask her out on a date. I waited that long to be as ready as I could for her because I knew I wanted her as my wife. At every step after then, I have known peace and joy like no other.
+                    As time went on, I found myself curious. I found myself looking forward to the next visit, to her emails, to her work calls. 
                     </p>
                     <p className='mb-2 text-justify'>
-                    There were days I would go to her office and think, She’s serious today, and other days, we would just sit and have work discussions. She would simply say, The service is nice, no complaints. But whenever I got back to work, I would still bring up ways to improve things. My colleague, who usually accompanied me to the meetings, would be puzzled, saying, But she didn’t complain about anything. And I’d insist, It can be better.
-                    </p>
-                    <p className='mb-2 text-justify'>
-
-                    They would just look at me and say, Okay, no problem.
+                    There were days I would go to her office and think, “She’s serious today”, and other days, we would just sit and have work discussions. She would simply say, “The service is nice, no complaints” However, whenever I returned to work, I would still bring up ways to improve things. My colleague, who usually accompanied me to the meetings, would be puzzled, saying, “But she didn’t complain about anything.” And I’d insist, “It can be better.”
                     </p>
                     <p className='mb-2 text-justify'>
 
-                    Looking back now, I realize it was never just about work, it was about her. And now, the journey that started with simple meetings and unspoken admiration has led us here.
+                    I became distinctively mindful of her, and looking back now, I realize it was never just about work, it was about her.
+                    </p>
+                    <p className='mb-2 text-justify'>
+
+                    I made up my mind to take a step a little over a year after and ask her out on a date. I waited that long to be as ready as I could for her because I knew I wanted her as my wife. At every step after then, I have known peace and joy like no other.
                      </p>
                     <p className='mb-2 text-justify'>
-                    Now, they are ready for the next chapter of their relationship to begin.
+                    And now, the journey that started with simple meetings and unspoken admiration has led us here.
 
                     <br/>
                     -David
                 </p>
 
 
-                <Image src="/ph11.jpeg" width={300} height={300} className='h-[300px] w-[300px] object-center border hidden md:block ml-10 mt-10 border-black p-1'/>
+                <Image src="/ph14.jpeg" width={300} height={300} className='h-[300px] w-[300px] object-cover border hidden md:block ml-10 mt-10 border-black p-1'/>
             </div>
             </div>
 
@@ -141,13 +142,12 @@ async function page({params}) {
 
         <div className='py-24  bg-[#FFE5B4]'>
             <div className='md:flex justify-evenly w-full md:w-[70%] mx-auto'>
-                <Image src="/ph6.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-cover rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] md:h-[350px] border border-black p-1'/>
-                <Image src="/ph7.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-cover rounded-tr-[20px] rounded-bl-[20px] md:h-[350px] border border-black p-1'/>
+                <Image src="/ph3.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] md:h-[350px] border border-black p-1'/>
+                <Image src="/ph9.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tr-[20px] rounded-bl-[20px] md:h-[350px] border border-black p-1'/>
             </div>
-            <div className='w-[70%] mx-auto mt-5 text-center'>
-                <h3 className='mb-4 font-bold text-3xl font-dancing_script'>What to Wear</h3>
-                <p>
-                    Suggested outfits for the ladies and gentlemen
+            <div className='w-[50%] mx-auto mt-5 text-center'>
+                <p className='font-bold font-dancing_script text-xl'>
+                We can’t imagine this special day without the people who mean the most to us. It would be our greatest joy to have you celebrate this beautiful moment with us.
                 </p>
             </div>
         </div>
@@ -164,15 +164,12 @@ async function page({params}) {
             </div>
             </div>
             <div className='flex-1 ml-16 my-16'>
-                <h3 className='mb-4 font-bold text-4xl font-dancing_script'>Getting there</h3>
+                <h3 className='mb-4 font-bold text-4xl font-dancing_script'>RSVP</h3>
                 <div className='my-10 flex item-center gap-2'>
-                    <FaBus size={30}/> Sierralane Park Station
+                     Mojisola : 08108657188
                 </div>
                 <div className='my-10 flex item-center gap-2'>
-                    <FaMotorcycle size={30}/> Sierralane Park Station
-                </div>
-                <div className='my-10 flex item-center gap-2'>
-                    <FaCar size={30}/> Sierralane Park Station
+                    Kolapo : 09024894290
                 </div>
             </div>
         </div>

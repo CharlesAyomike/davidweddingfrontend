@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 
 function WeddingCard({code}) {
-    const card = "/cards/invitationcard.jpeg"
+    const card = "/cards/invitationcard.png"
     const canvasRef = useRef(null)
 
     useEffect(()=>{
@@ -20,14 +20,13 @@ function WeddingCard({code}) {
 
             cxt.drawImage(img, 0, 0)
 
-            cxt.font = "17px Dancing_script"
+            cxt.font = "37px Dancing_script"
             cxt.fillStyle = "#800020"
             cxt.strokeStyle = "#800020"
             cxt.lineWidth = 1
-            cxt.textAlign = "center"
 
-            const x = canvas.width / 1.65
-            const y = canvas.height - 145
+            const x = canvas.width / 1.8
+            const y = canvas.height - 320
 
             cxt.strokeText(code, x, y)
             cxt.fillText(code, x, y)

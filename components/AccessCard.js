@@ -24,9 +24,9 @@ function AccessCard({name}) {
                 cxt.fillStyle = "#800020"
                 cxt.strokeStyle = "#800020"
                 cxt.lineWidth = 1
-                cxt.textAlign = "center"
+               
     
-                const x = canvas.width / 2.6
+                const x = canvas.width / 2.8
                 const y = canvas.height - 85
     
                 cxt.strokeText(name, x, y)

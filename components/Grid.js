@@ -15,8 +15,12 @@ const Grid = () => {
     { id: 7, src: '/ph6.jpeg', alt: 'Gallery Image 7', width: 'col-span-1' },
     { id: 9, src: '/ph7.jpeg', alt: 'Gallery Image 9', width: 'col-span-2' },
     { id: 10, src: '/ph9.jpeg', alt: 'Gallery Image 10', width: 'col-span-1' },
-    { id: 11, src: '/ph10.jpeg', alt: 'Gallery Image 11', width: 'col-span-1' },
-    { id: 12, src: '/ph11.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
+    { id: 10, src: '/ph11.jpeg', alt: 'Gallery Image 10', width: 'col-span-1' },
+    { id: 11, src: '/ph12.jpeg', alt: 'Gallery Image 11', width: 'col-span-1' },
+    { id: 12, src: '/ph10.jpeg', alt: 'Gallery Image 12', width: 'col-span-2' },
+    { id: 13, src: '/ph13.jpeg', alt: 'Gallery Image 12', width: 'col-span-2' },
+    { id: 14, src: '/ph15.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
+    { id: 15, src: '/ph14.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
 
   ];
 

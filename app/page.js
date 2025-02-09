@@ -10,7 +10,7 @@ const page = () => {
       <div 
         className="absolute inset-0 bg-center bg-no-repeat bg-cover z-0"
         style={{
-          backgroundImage: `url('/ph7.jpeg')`
+          backgroundImage: `url('/ph6.jpeg')`
         }}
       />
       
