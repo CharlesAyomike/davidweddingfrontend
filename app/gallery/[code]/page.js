@@ -27,14 +27,17 @@ const page = async ({params}) => {
 
 
   return (
-    <div className='bg-[#FFE5B4]'>
+    <div className='min-h-screen flex flex-col bg-[#FFE5B4]'>
         <Header code={code}/>
-        <div className='mb-24 mt-5'>
+
+        <div className='flex-1 mb-24 mt-5'>
           <div className='text-center mb-4'>
-            <h2 className='font-bold text-xl md:text-3xl font-dancing_script '>Enjoy our lovely pre wedding shoot</h2>
+            <h1 className='text-xl md:text-3xl font-bold'>Our Gallery is coming soon</h1>
+            {/* <h2 className='font-bold text-xl md:text-3xl font-dancing_script '>Enjoy our lovely pre wedding shoot</h2> */}
           </div>
-          <Grid/>
+          {/* <Grid/> */}
         </div>
+
       <Footer/>
     </div>
   )
