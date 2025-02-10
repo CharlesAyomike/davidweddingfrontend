@@ -17,11 +17,15 @@ const Grid = () => {
     { id: 10, src: '/ph9.jpeg', alt: 'Gallery Image 10', width: 'col-span-1' },
     { id: 10, src: '/ph11.jpeg', alt: 'Gallery Image 10', width: 'col-span-1' },
     { id: 11, src: '/ph12.jpeg', alt: 'Gallery Image 11', width: 'col-span-1' },
-    { id: 12, src: '/ph10.jpeg', alt: 'Gallery Image 12', width: 'col-span-2' },
+    { id: 12, src: '/ph19.jpg', alt: 'Gallery Image 12', width: 'col-span-2' },
     { id: 13, src: '/ph13.jpeg', alt: 'Gallery Image 12', width: 'col-span-2' },
     { id: 14, src: '/ph15.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
-    { id: 15, src: '/ph14.jpeg', alt: 'Gallery Image 12', width: 'col-span-1' },
-
+    { id: 15, src: '/ph16.jpg', alt: 'Gallery Image 12', width: 'col-span-1' },
+    { id: 17, src: '/ph17.jpg', alt: 'Gallery Image 12', width: 'col-span-2' },
+    { id: 18, src: '/ph18.jpg', alt: 'Gallery Image 12', width: 'col-span-1' },
+    { id: 19, src: '/ph20.jpg', alt: 'Gallery Image 12', width: 'col-span-1' },
+    { id: 20, src: '/ph10.jpeg', alt: 'Gallery Image 12', width: 'col-span-2' },
+    { id: 21, src: '/ph21.jpg', alt: 'Gallery Image 12', width: 'col-span-1' },
   ];
 
   return (
