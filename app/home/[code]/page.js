@@ -79,7 +79,7 @@ async function page({params}) {
             </div>
             <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0 px-4'>
                 <div>
-                <Image src="/ph21.jpeg" width={250} height={300} className='h-[300px] w-[250px] mb-3 object-center border mx-auto md:hidden border-black p-1'/>
+                <Image src="/ph21.jpeg" width={250} height={300} className='h-[300px] w-[280px] mb-3 object-center border mx-auto md:hidden border-black p-1'/>
 
                 <p className='mb-2 text-justify'>
                 I got to meet Ayomide when I resumed a new job and was assigned the account of a company in which she worked. She was to be the main contact person from the company I would be working with. On the first day I saw her, everything about her screamed different. She was so good-natured and stood out in such a special way. Her smile, her voice, her warmth, her professionalism, her beauty!
@@ -108,7 +108,7 @@ async function page({params}) {
                 </p>
 
 
-                <Image src="/ph20.jpg" width={250} height={300} className='h-[300px] w-[250px] object-center border hidden md:block ml-10 mt-10 border-black p-1'/>
+                <Image src="/ph21.jpeg" width={250} height={300} className='h-[300px] w-[280px] object-center border hidden md:block ml-10 mt-10 border-black p-1'/>
             </div>
             </div>
 
