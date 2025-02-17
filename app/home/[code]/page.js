@@ -74,7 +74,7 @@ async function page({params}) {
                    
                 </div>
 
-                
+
 
             </div>
             <div className='flex-1 p-2 flex justify-center item-center mt-10 md:mt-0 px-4'>
@@ -82,27 +82,32 @@ async function page({params}) {
                 <Image src="/ph21.jpeg" width={250} height={300} className='h-[300px] w-[280px] mb-3 object-center border mx-auto md:hidden border-black p-1'/>
 
                 <p className='mb-2 text-justify'>
-                I got to meet Ayomide when I resumed a new job and was assigned the account of a company in which she worked. She was to be the main contact person from the company I would be working with. On the first day I saw her, everything about her screamed different. She was so good-natured and stood out in such a special way. Her smile, her voice, her warmth, her professionalism, her beauty!
+                I got to meet Ayomide when I resumed a new job and was assigned the account of a company in which she worked. She was to be the main contact person from the company I would be in talks with. On the first day I saw her, everything about her screamed different. She was so good-natured and stood out in such a special way. Her smile, her voice, her warmth, her professionalism, her beauty!  
                     
                     </p>
                     <p className='mb-2 text-justify'>
 
-                    As time went on, I found myself curious. I found myself looking forward to the next visit, to her emails, to her work calls. 
+                    As time went on, I found myself curious. I found myself looking forward to the next visit, to her emails, to her work calls.  
+                    
                     </p>
                     <p className='mb-2 text-justify'>
-                    There were days I would go to her office and think, “She’s serious today”, and other days, we would just sit and have work discussions. She would simply say, “The service is nice, no complaints” However, whenever I returned to work, I would still bring up ways to improve things. My colleague, who usually accompanied me to the meetings, would be puzzled, saying, “But she didn’t complain about anything.” And I’d insist, “It can be better.”
+                    There were days I would go to her office and she gives the serious and busy face, In my mind “She’s serious today,” and other days, we would just sit and have work discussions. She would simply say, “The service is nice, no complaints,” keeping the conversation short and straight to the point.  
+                    
                     </p>
                     <p className='mb-2 text-justify'>
 
-                    I became distinctively mindful of her, and looking back now, I realize it was never just about work, it was about her.
+                        I became distinctively mindful of her, and looking back now, I realize it was never just about work. It was about her.  
+                    
                     </p>
                     <p className='mb-2 text-justify'>
 
-                    I made up my mind to take a step a little over a year after and ask her out on a date. I waited that long to be as ready as I could for her because I knew I wanted her as my wife. At every step after then, I have known peace and joy like no other.
+                    Then came the day I told my colleague, “Let’s go to her office.” My mind was made up that very day. When I got there, as usual, she still came out with that serious and busy face. I had tried already. It had been a little over a year, and there it was. We got talking, random stuff here and there, and there it was, I couldn’t see the busy face anymore. She was more relaxed. I just made sure the conversation didn’t end there. I waited that long to be as ready as I could for her because I knew I wanted her as my wife.  
+                     </p>
+                     <p>
+                    At every step after then, I have known peace and joy like no other.  
                      </p>
                     <p className='mb-2 text-justify'>
-                    And now, the journey that started with simple meetings and unspoken admiration has led us here.
-
+                    And now, the journey that started with simple meetings and unspoken admiration has birthed our union.  
                     <br/>
                     -David
                 </p>
