@@ -147,8 +147,8 @@ async function page({params}) {
 
         <div className='py-24  bg-[#FFE5B4]'>
             <div className='md:flex justify-evenly w-full md:w-[70%] mx-auto'>
-                <Image src="/ph3.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] md:h-[350px] border border-black p-1'/>
-                <Image src="/ph9.jpeg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tr-[20px] rounded-bl-[20px] md:h-[350px] border border-black p-1'/>
+                <Image src="/ph3.jpg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tl-[20px] mb-7 md:mb-0 rounded-br-[20px] md:h-[350px] border border-black p-1'/>
+                <Image src="/ph9.jpg" width={250} height={300} className='w-[250px] h-[270px] mx-auto md:mx-0 object-center rounded-tr-[20px] rounded-bl-[20px] md:h-[350px] border border-black p-1'/>
             </div>
             <div className='w-[80%] md:w-[50%] mx-auto mt-5 text-center'>
                 <p className='font-bold font-dancing_script text-xl'>
