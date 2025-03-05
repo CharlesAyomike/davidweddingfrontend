@@ -26,12 +26,7 @@ const  page = async ({params}) => {
   return (
     <div className="min-h-screen relative flex items-center justify-center">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center z-0"
-        style={{
-          backgroundImage: `url('/ph7.jpeg')`
-        }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center z-0 bg-[url('/ph1.jpg')] md:bg-[url('/banner.jpeg')]"/>
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#FFE5B4]/30 backdrop-blur-sm z-10" />
