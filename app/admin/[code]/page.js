@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import HasEntered from '@/components/HasEntered'
 import Header from '@/components/Header'
 import { redirect } from 'next/navigation'
 
@@ -51,6 +52,7 @@ async function page({params}) {
                 <th>Code</th>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Entered</th>
             </tr>
           {
             allUser.map((guestList, i) =>(
@@ -59,6 +61,9 @@ async function page({params}) {
                 <td>{guestList.code}</td>
                 <td>{guestList.name}</td>
                 <td>{guestList.email}</td>
+                <td>
+                    <HasEntered hasEntered={guestList.hasEntered} guestC={guestList.code}/>
+                </td>
             </tr>
             ))
           }

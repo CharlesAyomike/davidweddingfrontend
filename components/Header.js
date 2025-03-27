@@ -25,6 +25,7 @@ function Header({code}) {
             <Link href={`/invitationcard/${code}`} className='font-bold hover:text-white/80'>Wedding Card</Link>
             <Link href={`/accesscard/${code}`} className='font-bold hover:text-white/80'>Access Card</Link>
             <Link href={`/gallery/${code}`} className='font-bold hover:text-white/80'>Gallery</Link>
+            <Link href={`/videos/${code}`} className='font-bold hover:text-white/80'>Videos</Link>
         </nav>
       </header>
 
@@ -55,6 +56,10 @@ function Header({code}) {
               <div className='my-4'>
                 <Link href={`/gallery/${code}`} className='font-bold hover:text-white/80'>Gallery</Link>
               </div>
+              <div className='my-4'>
+                <Link href={`/videos/${code}`} className='font-bold hover:text-white/80'>Videos</Link>
+              </div>
+              
             </div>
             
           </div>

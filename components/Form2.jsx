@@ -24,7 +24,7 @@ function Form2({code}) {
               headers: {
                 "Content-Type": "application/json",
               },
-              body: JSON.stringify({ name:name, email:email }),
+              body: JSON.stringify({ name:name, email:email, hasEntered:false }),
             })
             if (response.status === 200) {
     

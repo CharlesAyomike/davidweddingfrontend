@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Grid from '@/components/Grid'
 import Header from '@/components/Header'
+import Videos from '@/components/Videos'
 import { redirect } from 'next/navigation'
 import React from 'react'
 
@@ -32,9 +33,9 @@ const page = async ({params}) => {
 
         <div className='flex-1 mb-24 mt-5'>
           <div className='text-center mb-4'>
-            <h2 className='font-bold text-xl md:text-3xl font-dancing_script '>Enjoy our lovely pre wedding photo shoot</h2>
+            <h2 className='font-bold text-xl md:text-3xl font-dancing_script '>Enjoy our lovely pre wedding video shoot</h2>
           </div>
-          <Grid/>
+          <Videos/>
         </div>
 
       <Footer/>
